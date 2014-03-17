@@ -16,9 +16,9 @@
         }
     ],
     "require": {
-        "components/jquery": "~1.9",
+        "components/jquery": ">=1.8.3",
         "components/bootstrap": "~3",
-        "moment/moment": "~2.4"
+        "moment/moment": ">=2.4.0"
     },
     "extra": {
         "component": {
