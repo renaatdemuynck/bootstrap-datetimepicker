@@ -1,0 +1,105 @@
+{
+    "name": "renaatdemuynck/bootstrap-datetimepicker",
+    "description": "Date/time picker widget based on Bootstrap",
+    "type": "component",
+    "license": [
+        "MIT"
+    ],
+    "homepage": "http://www.eyecon.ro/bootstrap-datepicker/",
+    "support": {
+        "source": "https://github.com/renaatdemuynck/bootstrap-datetimepicker"
+    },
+    "authors": [
+        {
+            "name": "Renaat De Muynck",
+            "email": "renaat.demuynck@gmail.com"
+        }
+    ],
+    "require": {
+        "components/jquery": "~1.9",
+        "components/bootstrap": "~3",
+        "moment/moment": "~2.4"
+    },
+    "extra": {
+        "component": {
+            "name": "bootstrap-datetimepicker",
+            "scripts": [
+                "src/js/bootstrap-datetimepicker.js"
+            ],
+            "styles": [
+                "build/css/bootstrap-datetimepicker.css"
+            ],
+            "files": [
+                "build/js/bootstrap-datetimepicker.min.js",
+                "build/css/bootstrap-datetimepicker.min.css",
+                "src/less/bootstrap-datetimepicker.less",
+                "src/js/locales/bootstrap-datetimepicker.ar-ma.js",
+                "src/js/locales/bootstrap-datetimepicker.ar.js",
+                "src/js/locales/bootstrap-datetimepicker.bg.js",
+                "src/js/locales/bootstrap-datetimepicker.br.js",
+                "src/js/locales/bootstrap-datetimepicker.bs.js",
+                "src/js/locales/bootstrap-datetimepicker.ca.js",
+                "src/js/locales/bootstrap-datetimepicker.cs.js",
+                "src/js/locales/bootstrap-datetimepicker.cv.js",
+                "src/js/locales/bootstrap-datetimepicker.da.js",
+                "src/js/locales/bootstrap-datetimepicker.de.js",
+                "src/js/locales/bootstrap-datetimepicker.el.js",
+                "src/js/locales/bootstrap-datetimepicker.en-au.js",
+                "src/js/locales/bootstrap-datetimepicker.en-ca.js",
+                "src/js/locales/bootstrap-datetimepicker.en-gb.js",
+                "src/js/locales/bootstrap-datetimepicker.eo.js",
+                "src/js/locales/bootstrap-datetimepicker.es.js",
+                "src/js/locales/bootstrap-datetimepicker.et.js",
+                "src/js/locales/bootstrap-datetimepicker.eu.js",
+                "src/js/locales/bootstrap-datetimepicker.fa.js",
+                "src/js/locales/bootstrap-datetimepicker.fi.js",
+                "src/js/locales/bootstrap-datetimepicker.fr-ca.js",
+                "src/js/locales/bootstrap-datetimepicker.fr.js",
+                "src/js/locales/bootstrap-datetimepicker.gl.js",
+                "src/js/locales/bootstrap-datetimepicker.he.js",
+                "src/js/locales/bootstrap-datetimepicker.hi.js",
+                "src/js/locales/bootstrap-datetimepicker.hr.js",
+                "src/js/locales/bootstrap-datetimepicker.hu.js",
+                "src/js/locales/bootstrap-datetimepicker.id.js",
+                "src/js/locales/bootstrap-datetimepicker.is.js",
+                "src/js/locales/bootstrap-datetimepicker.it.js",
+                "src/js/locales/bootstrap-datetimepicker.ja.js",
+                "src/js/locales/bootstrap-datetimepicker.ka.js",
+                "src/js/locales/bootstrap-datetimepicker.ko.js",
+                "src/js/locales/bootstrap-datetimepicker.lt.js",
+                "src/js/locales/bootstrap-datetimepicker.lv.js",
+                "src/js/locales/bootstrap-datetimepicker.ml.js",
+                "src/js/locales/bootstrap-datetimepicker.mr.js",
+                "src/js/locales/bootstrap-datetimepicker.ms-my.js",
+                "src/js/locales/bootstrap-datetimepicker.nb.js",
+                "src/js/locales/bootstrap-datetimepicker.ne.js",
+                "src/js/locales/bootstrap-datetimepicker.nl.js",
+                "src/js/locales/bootstrap-datetimepicker.nn.js",
+                "src/js/locales/bootstrap-datetimepicker.pl.js",
+                "src/js/locales/bootstrap-datetimepicker.pt-BR.js",
+                "src/js/locales/bootstrap-datetimepicker.pt.js",
+                "src/js/locales/bootstrap-datetimepicker.ro.js",
+                "src/js/locales/bootstrap-datetimepicker.ru.js",
+                "src/js/locales/bootstrap-datetimepicker.sk.js",
+                "src/js/locales/bootstrap-datetimepicker.sl.js",
+                "src/js/locales/bootstrap-datetimepicker.sq.js",
+                "src/js/locales/bootstrap-datetimepicker.sv.js",
+                "src/js/locales/bootstrap-datetimepicker.th.js",
+                "src/js/locales/bootstrap-datetimepicker.tr.js",
+                "src/js/locales/bootstrap-datetimepicker.tzm-la.js",
+                "src/js/locales/bootstrap-datetimepicker.tzm.js",
+                "src/js/locales/bootstrap-datetimepicker.uk.js",
+                "src/js/locales/bootstrap-datetimepicker.uz.js",
+                "src/js/locales/bootstrap-datetimepicker.vn.js",
+                "src/js/locales/bootstrap-datetimepicker.zh-CN.js",
+                "src/js/locales/bootstrap-datetimepicker.zh-TW.js "
+            ],
+            "shim": {
+                "deps": [
+                    "jquery"
+                ],
+                "exports": "jQuery.datetimepicker"
+            }
+        }
+    }
+}
